@@ -1,27 +1,25 @@
-import openpyxl
 from tkinter import *
-from tkinter import messagebox
+from tkinter import ttk
 
+#Create an instance of Tkinter Frame
+win = Tk()
 
-def register():
-    # Get the user input from the form
-    first_name = first_name_entry.get()
-    messagebox.showinfo("Success", "Registration successful!")
-    return first_name
+#Set the geometry
+win.geometry("700x250")
 
+# Define a function to return the Input data
+def get_data():
+   label.config(text= entry.get(), font= ('Helvetica 13'))
 
-# Create the main tkinter window
-root = Tk()
-root.title("Registration Form")
-root.geometry('300x300')
+#Create an Entry Widget
+entry = Entry(win, width= 42)
+entry.place(relx= .5, rely= .5, anchor= CENTER)
 
-# Create labels and entry fields for each input
-first_name_label = Label(root, text="First Name:")
-first_name_label.pack()
-first_name_entry = Entry(root)
-first_name_entry.pack()
+#Inititalize a Label widget
+label= Label(win, text="", font=('Helvetica 13'))
+label.pack()
 
-register_button = Button(root, text="Register", command=register)
-register_button.pack()
+#Create a Button to get the input data
+ttk.Button(win, text= "Click to Show", command= get_data).place(relx= .7, rely= .5, anchor= CENTER)
 
-root.mainloop()
+win.mainloop()
