@@ -28,6 +28,9 @@ Link to presentation: https://docs.google.com/presentation/d/15-743Hq7inh-mjQpIL
 </p>
 <h1>Running the code</h1>
 <p>
+  The app requires you to have installed streamlit packages.
+  Download the streamlit packages using <code> pip install streamlit</code>
+  Change directory to the folder with files 'robertaapp.py','robertafinal.py' and the folder 'roberta' which has the saved model
   Run the robertaapp.py file using the command: <code>streamlit run robertaapp.py</code>
 </p>
 
