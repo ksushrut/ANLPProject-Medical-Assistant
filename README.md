@@ -5,7 +5,7 @@ Implemented by:
   <li>Sushrut Kuchik <a href="https://github.com/ksushrut">Github Profile</a></li>
 </ul>
 <br>
-<p>The repository has two notebook files: llm roberta and llm bert having the respective model fine tuned.<br>
+<p>The repository has two notebook files: llmroberta.ipynb and llmbert.ipynb having the respective model fine tuned.<br>
 Python Packages used and their versions:
 <ol>
   <li>transformers: 4.39.3</li>
@@ -28,9 +28,10 @@ Link to presentation: https://docs.google.com/presentation/d/15-743Hq7inh-mjQpIL
 </p>
 <h1>Running the code</h1>
 <p>
-  The app requires you to have installed streamlit packages.
-  Download the streamlit packages using <code> pip install streamlit</code>
-  Change directory to the folder with files 'robertaapp.py','robertafinal.py' and the folder 'roberta' which has the saved model
-  Run the robertaapp.py file using the command: <code>streamlit run robertaapp.py</code>
+  The app requires you to have installed streamlit packages.<br>
+  Download the streamlit packages using <code> pip install streamlit</code><br>
+  Change directory to the folder with files 'robertaapp.py','robertafinal.py' and the folder 'roberta' which has the saved model<br>
+  Run the robertaapp.py file using the command: <code>streamlit run robertaapp.py</code><br>
+  This file contains the website code which is hosted locally. 
 </p>
 
