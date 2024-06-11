@@ -28,6 +28,6 @@ Link to presentation: https://docs.google.com/presentation/d/15-743Hq7inh-mjQpIL
 </p>
 <h1>Running the code</h1>
 <p>
-  Run the ____ file using the command: <code>streamlit run ____.py</code>
+  Run the robertaapp.py file using the command: <code>streamlit run robertaapp.py</code>
 </p>
 
