@@ -6,13 +6,13 @@ Implemented by:
 </ul>
 <br>
 <p>The repository has two notebook files: llm roberta and llm bert having the respective model fine tuned.<br>
-Python Packages used:
+Python Packages used and their versions:
 <ol>
-  <li>transformers</li>
-  <li>sklearn</li>
-  <li>pandas</li>
-  <li>peft</li>
-  <li>streamlit</li>
+  <li>transformers: 4.39.3</li>
+  <li>sklearn: 1.4.2</li>
+  <li>pandas: 2.2.2</li>
+  <li>peft: 0.10.0</li>
+  <li>streamlit: 1.35.0</li>
 </ol>
 </p>
 <p>
